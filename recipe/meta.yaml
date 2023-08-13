@@ -1,5 +1,5 @@
-{% set version = "12.3.2" %}
-{% set sha256 = "23248eebb855e6a08595bca40c1b972f1ad61965846c83907adc8da1eff31159" %}
+{% set version = "12.3.3" %}
+{% set sha256 = "69999ba431b9d565101c455388a756d360ae7564d8d28e7283210e5e894f2b04" %}
 
 package:
   name: azure-storage-common-cpp
@@ -55,11 +55,8 @@ about:
   home: https://github.com/Azure/azure-sdk-for-cpp/
   summary: Azure Storage Common Client Library for C++
   description: >-
-    Azure Storage is a Microsoft-managed service providing cloud storage that is
-    highly available, secure, durable, scalable, and redundant. Azure Storage
-    includes Azure Blobs (objects), Azure Data Lake Storage Gen2, Azure Files,
-    and Azure Queues. The Azure Storage Common library provides infrastructure
-    shared by the other Azure Storage client libraries.
+    Azure Storage is a Microsoft-managed service providing cloud storage that is highly available, secure, durable, scalable, and redundant. Azure Storage includes Azure Blobs (objects), Azure Data Lake Storage Gen2, Azure Files, and Azure Queues. The Azure Storage Common library provides infrastructure shared by the other
+    Azure Storage client libraries.
   license: MIT
   license_family: MIT
   license_file:
