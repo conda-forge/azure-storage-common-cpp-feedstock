@@ -10,7 +10,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   run_exports:
     - {{ pin_subpackage("azure-storage-common-cpp", max_pin="x") }}
 
@@ -21,7 +21,7 @@ requirements:
     - cmake
     - ninja
   host:
-    - azure-core-cpp >=1.9.0
+    - azure-core-cpp >=1.10.3
     - libxml2  # [not win]
     - openssl  # [not win]
 
