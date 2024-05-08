@@ -22,7 +22,7 @@ requirements:
     - cmake
     - ninja
   host:
-    - azure-core-cpp >=1.10.3
+    - azure-core-cpp >=1.11.3
     - libxml2  # [not win]
     - openssl  # [not win]
 
