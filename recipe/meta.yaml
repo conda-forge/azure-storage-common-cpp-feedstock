@@ -1,5 +1,5 @@
-{% set version = "12.8.0" %}
-{% set sha256 = "30966b2b677c5ddb2c6bc83db2b096c9718e8435d611a91a9b191430ad527456" %}
+{% set version = "12.10.0" %}
+{% set sha256 = "84e165267995b8d10060abe1c2b65b3238eccea3f11222b5ae36042a1d1ae07f" %}
 
 package:
   name: azure-storage-common-cpp
@@ -10,7 +10,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   run_exports:
     - {{ pin_subpackage("azure-storage-common-cpp", max_pin="x.x.x") }}
 
