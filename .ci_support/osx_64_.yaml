@@ -3,7 +3,7 @@ MACOSX_DEPLOYMENT_TARGET:
 MACOSX_SDK_VERSION:
 - '10.13'
 azure_core_cpp:
-- 1.14.0
+- 1.15.0
 c_stdlib:
 - macosx_deployment_target
 c_stdlib_version:
@@ -17,7 +17,7 @@ cxx_compiler:
 cxx_compiler_version:
 - '18'
 libxml2:
-- '2'
+- '2.13'
 macos_machine:
 - x86_64-apple-darwin13.4.0
 openssl:
