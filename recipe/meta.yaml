@@ -10,7 +10,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 2
+  number: 3
   run_exports:
     - {{ pin_subpackage("azure-storage-common-cpp", max_pin="x.x.x") }}
 
@@ -24,7 +24,7 @@ requirements:
   host:
     # azure-core-cpp is pinned in conda-forge-pinning-feedstock
     - azure-core-cpp
-    - libxml2  # [not win]
+    - libxml2-devel  # [not win]
     - openssl  # [not win]
 
 test:
