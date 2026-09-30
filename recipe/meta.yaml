@@ -1,5 +1,5 @@
-{% set version = "12.14.0" %}
-{% set sha256 = "68b3d88d5f1358b3607b4fb76674373c91e1dd840920de05e5a82cf09fcc6e5b" %}
+{% set version = "12.15.0" %}
+{% set sha256 = "23a10c84418f6d8c07858277f3b8e7c7344008f1ab9eacabdc485fb0744903e5" %}
 
 package:
   name: azure-storage-common-cpp
@@ -12,7 +12,7 @@ source:
     - 0001-remove-private-deps-from-exported-config.patch
 
 build:
-  number: 1
+  number: 0
   run_exports:
     - {{ pin_subpackage("azure-storage-common-cpp", max_pin="x.x.x") }}
 
